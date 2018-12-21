@@ -1,0 +1,249 @@
+.bg-dark {
+    background-color: #0b3763!important;
+}
+.main-container {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.login-main-container{
+	margin-left: 320px;
+	margin-top: 60px;
+}
+ul{
+	list-style: none;
+}
+.directory {
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.file {
+	font-size: 18px;
+}
+.display {
+	display: none;
+}
+.fa-folder-plus{
+	color: #007bff !important;
+	/*cursor: pointer;*/
+}
+.fa-folder-plus:hover{
+	/*font-size: 22px;*/
+	color: #007bff !important;
+	/*cursor: pointer;*/
+}
+.fa-folder-minus{
+	color: #cc0000 !important;
+	/*cursor: pointer;*/
+}
+.fa-folder-minus:hover{
+	/*font-size: 22px;*/
+	color: #cc0000;
+	/*cursor: pointer;*/
+}
+.fa-file-upload{
+	color: #007bff !important;
+	/*cursor: pointer;*/
+}
+.fa-file-upload:hover{
+	/*font-size: 22px;*/
+	color: #007bff !important;
+	/*cursor: pointer;*/
+}
+.fa-folder{
+	color: #eaba2ad6;
+}
+.fa-folder-open{
+	color: #eaba2ad6;
+}
+form .fa-file{
+	color: #007bff;
+}
+
+#assignfiles {
+    padding-left: 4px;
+}
+
+
+.assign-to-user{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	padding-left: 0px;
+	padding-right: 4px;
+	width: 300px;
+}
+.modal-header{
+	background-color: #0062cc;
+	color: #fff;
+}
+input.submit-btn {
+    background-color: #0062cc;
+    color: #fff;
+}
+.create-folder {
+	font-size: 32px;
+	vertical-align: bottom;
+}
+
+#create-user-btn {
+	margin-top: 10px;
+}
+
+img {
+	width: 140px;
+	height: 50px;
+}
+
+
+/*create-user-form ----------------*/
+#create-user-form input[type="text"],
+#create-user-form input[type="password"],
+#create-user-form input[type="number"],
+#create-user-form select{
+	border-radius: 4px;
+	border-width: 1px;
+	color: #007bff;
+}
+
+/*create-user-form ----------------*/
+#delete-user-form select{
+	border-radius: 4px;
+	border-width: 1px;
+	color: #007bff;
+}
+
+/*message status -----------------*/
+.message li {
+	font-size: 22px;
+}
+
+.duplicate{
+	/*background-color: #ff8989;*/
+}
+.assigned{
+	/*background-color: #a0efb1;*/
+}
+
+.new-user, .success-delete, .enabled {
+	color:green;
+}
+
+.fa-trash-alt, .no-rights, .disabled{
+	color: red;
+}
+
+.fa-check{
+	color: green;
+}
+
+.fa-times{
+	color:red;
+}
+
+.danger-message {
+	color: red;
+}
+
+
+/*links -----------*/
+
+.file-link {
+	cursor: pointer;
+	color: #007bff;
+}
+
+/*client download*/
+.download-td {
+    padding-right: 40px;
+}
+
+/*file extensions console*/
+.disabled-ext{
+	color:red ;
+}
+
+.enabled-ext{
+	color:#28a745;
+}
+
+
+/*file extensions panel*/
+.file-extensions-panel {
+    margin-left: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+	.file-extensions-panel {
+		margin-left: 0px;
+	}
+	.root-tree-panel {
+		margin-bottom: 20px;
+	}
+}
+
+#extensions-table{
+	height: 300px;
+	width: 230px; 
+	display: inline-block;
+	overflow-y: scroll;
+}
+
+
+/*Users VIEW */
+#filepanel{
+	padding-left: 40px;
+}
+
+.view-tr, .statistics-tr {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #c1c1c1;
+}
+
+.view-td, .statistics-td {
+	padding-right: 40px;
+	font-size: 16px;
+	padding-right: 40px;
+}
+
+p.show-files-btn {
+    margin-bottom: 3px;
+}
+
+.form-btns-container{
+	margin-top:10px;
+}
+
+.dismiss-form{
+	margin-right: 6px;
+}
+
+/*File statistics -----------------*/
+.show-users {
+	cursor: pointer;
+	color: #007bff;
+}
+
+.userdownload {
+	cursor: pointer;
+	color: #1d2124;
+}
+
+.userdownload:hover {
+	cursor: pointer;
+	color: #007bff;
+}
+
+/*context menu --------------------------*/
+.context-menu-item.context-menu-hover{
+	background-color: #007bff !important;
+}
+
+.context-menu-icon:hover > .fa-file-upload,
+.context-menu-icon:hover > .fa-folder-plus,
+.context-menu-icon:hover > .fa-folder-minus {
+	color: #fff !important;
+}
